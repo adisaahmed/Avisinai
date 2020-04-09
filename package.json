@@ -1,0 +1,29 @@
+{
+  "name": "Avisinai",
+  "version": "1.0.0",
+  "description": "A small jQuery plugin which allows you to create various types of menus for mobile devices. You can create a menu which can be toggled with a tap on mobile devices, a menu where each submenu can be toggled or a select list menu.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 10 --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssmenumaker/jQuery-Plugin-Responsive-Drop-Down.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssmenumaker/jQuery-Plugin-Responsive-Drop-Down/issues"
+  },
+  "homepage": "https://github.com/cssmenumaker/jQuery-Plugin-Responsive-Drop-Down#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

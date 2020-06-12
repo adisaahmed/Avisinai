@@ -63,3 +63,196 @@ body {
 .dropdown_li_a:hover {
 	color: #f2575d;
 }
+
+.Banner {
+	background-image: url("../img/index_banner.jpg");
+	height: 500px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.banner_caption {
+	margin-top: 0px;
+	width: 80%;
+	margin: auto;
+	padding: 170px 0px;
+	line-height: 60px;
+	font-weight: 600;
+	color: #fff;
+	font-size: 40px;
+}
+
+.section_2 {
+	padding: 100px 0px;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.section_2_h {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.section_2_button {
+	background-color: #f2575d;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.section_2_p {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.logo_slide_img {
+	height: 80px;
+}
+
+.section_3 {
+	background-color: #F6F6F6;
+	padding: 20px 0px 50px;
+}
+
+.section_4 {
+	background-color: #F2F3EF;
+	padding: 50px 0px;
+}
+
+.section_4_h3 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 50px;
+	margin-bottom: 50px;
+}
+
+.catalog {
+	border: 1px solid red;
+	height: 250px;
+	width: 200px;
+}
+
+.container_container {
+	width: 100%;
+	height: auto;
+	background-color: #F2F3EF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_container_box {
+	width: 350px;
+	height: auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 20px 0px;
+	margin: 20px 10px;
+}
+
+.details_img {
+	height: 60px;
+	width: 100px;
+}
+
+.container_container_box_img {
+	height: 350px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+
+.details_p {
+	font-weight: 600;
+	color: #6a6a74;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.marvel {
+	color: #555;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.container_container_box:hover {
+	background-color: rgb(246, 246, 246);
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+}
+
+.container_container_box:hover .marvel {
+	color: #c0292b;
+	transition: all ease 0.5s;
+}
+
+.section_5 {
+	padding: 0px;
+	background-color: #eee;
+	text-align: center;
+}
+
+.section_5_img {
+	height: 100px;
+	margin-bottom: 30px;
+}
+
+.section_5_h1 {
+	font-size: 25px;
+	text-align: left;
+	font-weight: 600;
+}
+
+.section_5_p {
+	text-align: justify;
+	font-size: 15px;
+	margin-bottom: 100px;
+}
+
+.section_5_button {
+	border: 1px solid red;
+	padding: 10px 20px;
+	color: red;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+.section_5_button:hover {
+	text-decoration: none;
+	background-color: red;
+	color: #fff;
+}
+
+.section_5_col_md_6 {
+	background-color: #fff;
+	padding: 100px 25px;
+	text-align: left;
+}
+
+.section_6 {
+	background-image: url(..img/index_banner.jpg);
+	height: 400px;
+	background-size: 100% auto;
+}
+
+.section_5_col_md_6_a_work_hire_button {
+	width: 100%;
+	text-align: left;
+}

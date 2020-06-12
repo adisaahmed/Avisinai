@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) {
+  .Banner {
+    height: 160px;
+  }
+
+  .banner_caption {
+  	font-size: 20px;
+  	padding: 40px 0px;
+  	line-height: 30px;
+  }
+
+  .section_2 {
+  	width: 80%;
+  }
+
+  .section_2_h {
+  	text-align: left;
+  	font-size: 20px;
+  }
+
+  .section_2_p {
+  	text-align: justify;
+  }
+
+  .container_container_box {
+  	width: 40%;
+  	height: 500px;
+  }
+
+  .container_container_box_img {
+  	height: 250px;
+  }
+
+  .details_p {
+  	font-size: 16px;
+  	width: 250px;
+  }
+}
